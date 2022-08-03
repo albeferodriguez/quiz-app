@@ -105,8 +105,8 @@
 		EBA80FCE289AAD1900D61086 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				EBA81016289AB7CC00D61086 /* Domain */,
 				EBA81011289AAE0A00D61086 /* Components */,
-				EBA8100E289AADA200D61086 /* Entities */,
 				EBA8100B289AAD5C00D61086 /* Features */,
 				EBA80FCF289AAD1900D61086 /* QuizAppApp.swift */,
 				EBA80FD0289AAD1900D61086 /* ContentView.swift */,
@@ -175,6 +175,14 @@
 				EBA81014289AB08C00D61086 /* QuizItem.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		EBA81016289AB7CC00D61086 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EBA8100E289AADA200D61086 /* Entities */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
